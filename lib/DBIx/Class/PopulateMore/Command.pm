@@ -9,16 +9,7 @@ use Module::Pluggable::Object;
 
 =head1 NAME
 
-DBIx::Class::PopulateMore::Command; Command Class to Populate a Schema
-
-=head1 VERSION
-
-0.01
-
-=cut
-
-our $VERSION = '0.01';
-
+DBIx::Class::PopulateMore::Command - Command Class to Populate a Schema
 
 =head1 DESCRIPTION
 
@@ -361,7 +352,7 @@ sub coerce_to_array
 
 Please see L<DBIx::Class::PopulateMore> For authorship information
 
-=head1 COPYRIGHT & LICENSE
+=head1 LICENSE
 
 Please see L<DBIx::Class::PopulateMore> For licensing terms.
 

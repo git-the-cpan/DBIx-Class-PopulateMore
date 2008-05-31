@@ -5,7 +5,7 @@ use base 'DBIx::Class';
        
 =head1 NAME
 
-DBIx::Class::PopulateMore::Test::Schema::Result; A base result class
+DBIx::Class::PopulateMore::Test::Schema::Result - A base result class
 
 =head1 DESCRIPTION
 
@@ -37,7 +37,7 @@ This module declares the following methods.
 
 Please see L<DBIx::Class::PopulateMore> For authorship information
 
-=head1 COPYRIGHT & LICENSE
+=head1 LICENSE
 
 Please see L<DBIx::Class::PopulateMore> For licensing terms.
 

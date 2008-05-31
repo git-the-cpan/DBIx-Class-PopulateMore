@@ -5,13 +5,7 @@ use base 'DBIx::Class::PopulateMore::Test::Schema::Result';
 
 =head1 NAME
 
-=over
-
-=item Zoomwit::tlib::DBIC::Schema::Result::EmploymentHistory; 
-
-Information about a Persons as an Employee;
-
-=back
+DBIx::Class::PopulateMore::Test::Schema::Result::EmploymentHistory - Information about a Persons as an Employee;
 
 =head1 DESCRIPTION
 
@@ -96,7 +90,7 @@ This module defines the following methods.
 
 Please see L<DBIx::Class::PopulateMore> For authorship information
 
-=head1 COPYRIGHT & LICENSE
+=head1 LICENSE
 
 Please see L<DBIx::Class::PopulateMore> For licensing terms.
 

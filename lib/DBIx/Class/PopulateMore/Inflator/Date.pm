@@ -6,7 +6,7 @@ extends 'DBIx::Class::PopulateMore::Inflator';
 
 =head1 NAME
 
-DBIx::Class::PopulateMore::Inflator::Date; Returns A L<DateTime> object
+DBIx::Class::PopulateMore::Inflator::Date - Returns A L<DateTime> object
 
 =head1 DESCRIPTION
 
@@ -49,7 +49,7 @@ sub inflate
 
 Please see L<DBIx::Class::PopulateMore> For authorship information
 
-=head1 COPYRIGHT & LICENSE
+=head1 LICENSE
 
 Please see L<DBIx::Class::PopulateMore> For licensing terms.
 

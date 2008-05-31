@@ -5,7 +5,7 @@ extends 'DBIx::Class::PopulateMore::Inflator';
 
 =head1 NAME
 
-DBIx::Class::PopulateMore::Inflator::Env; inflated via the %ENV hash
+DBIx::Class::PopulateMore::Inflator::Env - inflated via the %ENV hash
 
 =head1 DESCRIPTION
 
@@ -47,7 +47,7 @@ sub inflate
 
 Please see L<DBIx::Class::PopulateMore> For authorship information
 
-=head1 COPYRIGHT & LICENSE
+=head1 LICENSE
 
 Please see L<DBIx::Class::PopulateMore> For licensing terms.
 

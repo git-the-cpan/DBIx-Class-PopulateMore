@@ -11,11 +11,11 @@ DBIx::Class::PopulateMore - An enhanced populate method
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 SYNOPSIS
 
@@ -244,9 +244,7 @@ Thanks to the entire L<DBIx::Class> team for providing such a useful and
 extensible ORM.  Also thanks to the L<Moose> developers for making it fun and
 easy to write beautiful Perl.
 
-=head1 COPYRIGHT & LICENSE
-
-Copyright 2008 John Napiorkowski.
+=head1 LICENSE
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.

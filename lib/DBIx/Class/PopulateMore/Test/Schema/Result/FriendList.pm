@@ -5,7 +5,7 @@ use base 'DBIx::Class::PopulateMore::Test::Schema::Result';
 
 =head1 NAME
 
-Zoomwit::tlib::DBIC::Schema::Result::FriendList; An example Friends Class;
+DBIx::Class::PopulateMore::Test::Schema::Result::FriendList - An example Friends Class;
 
 =head1 DESCRIPTION
 
@@ -94,7 +94,7 @@ This module defines the following methods.
 
 Please see L<DBIx::Class::PopulateMore> For authorship information
 
-=head1 COPYRIGHT & LICENSE
+=head1 LICENSE
 
 Please see L<DBIx::Class::PopulateMore> For licensing terms.
 

@@ -5,16 +5,7 @@ extends 'Data::Visitor', 'Moose::Object';
 
 =head1 NAME
 
-Zoomwit::DBIC::Schema::Populate::Visitor; Visitor for the Populate Data
-
-=head1 VERSION
-
-0.01
-
-=cut
-
-our $VERSION = '0.01';
-
+DBIx::Class::PopulateMore::Visitor  - Visitor for the Populate Data
 
 =head1 SYNOPSIS
 
@@ -139,7 +130,7 @@ sub match_or_not
 
 Please see L<DBIx::Class::PopulateMore> For authorship information
 
-=head1 COPYRIGHT & LICENSE
+=head1 LICENSE
 
 Please see L<DBIx::Class::PopulateMore> For licensing terms.
 

@@ -5,7 +5,7 @@ use base 'DBIx::Class::PopulateMore::Test::Schema::Result';
 
 =head1 NAME
 
-DBIx::Class::PopulateMore::Test::Schema::Result::Gender; A Gender Class;
+DBIx::Class::PopulateMore::Test::Schema::Result::Gender - A Gender Class
 
 =head1 DESCRIPTION
 
@@ -92,7 +92,7 @@ This module defines the following methods.
 
 Please see L<DBIx::Class::PopulateMore> For authorship information
 
-=head1 COPYRIGHT & LICENSE
+=head1 LICENSE
 
 Please see L<DBIx::Class::PopulateMore> For licensing terms.
 

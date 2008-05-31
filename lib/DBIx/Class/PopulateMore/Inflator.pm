@@ -4,7 +4,7 @@ use Moose;
 
 =head1 NAME
 
-DBIx::Class::PopulateMore::Inflator; Base Class for keyword Inflators
+DBIx::Class::PopulateMore::Inflator - Base Class for keyword Inflators
 
 =head1 DESCRIPTION
 
@@ -57,7 +57,7 @@ sub inflate
 
 Please see L<DBIx::Class::PopulateMore> For authorship information
 
-=head1 COPYRIGHT & LICENSE
+=head1 LICENSE
 
 Please see L<DBIx::Class::PopulateMore> For licensing terms.
 

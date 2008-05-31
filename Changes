@@ -1,4 +1,7 @@
 Revision history for Perl extension DBIx-Class-PopulateMore.
 
+0.02 Friday, May 29, 2008
+    - Fix for messed up POD and missing Makefile.PL
+	
 0.01 Friday, May 29, 2008
     - Initial release

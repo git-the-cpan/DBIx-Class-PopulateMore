@@ -6,7 +6,7 @@ use base 'DBIx::Class::PopulateMore::Test::Schema::ResultSet';
 
 =head1 NAME
 
-DBIx::Class::PopulateMore::Test::Schema::ResultSet::Person; Person Resultset
+DBIx::Class::PopulateMore::Test::Schema::ResultSet::Person - Person Resultset
 
 =head1 DESCRIPTION
 
@@ -34,7 +34,7 @@ sub older_than
 
 Please see L<DBIx::Class::PopulateMore> For authorship information
 
-=head1 COPYRIGHT & LICENSE
+=head1 LICENSE
 
 Please see L<DBIx::Class::PopulateMore> For licensing terms.
 

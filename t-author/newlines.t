@@ -10,7 +10,7 @@ BEGIN {
 
 =head1 NAME
 
-Newlines, test to make sure all text files are in unix linefeed format
+t/newlines.t - test to make sure all text files are in unix linefeed format
 
 =head1 DESCRIPTION
 
@@ -100,14 +100,16 @@ else
 	$test_builder->plan(skip_all => 'No Text Files Found! (This is probably BIG Trouble...');
 }
 
+=head1 AUTHOR
 
-=head1 AUTHORS
+John Napiorkowski, C<< <jjn1056 at yahoo.com> >>
 
-See L<Zoomwit> for more information regarding authors.
+=head1 COPYRIGHT & LICENSE
 
-=head1 LICENSE
+Copyright 2008 John Napiorkowski.
 
-See L<Zoomwit> for the license.
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
 
 =cut
 
