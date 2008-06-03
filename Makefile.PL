@@ -12,6 +12,7 @@ requires 'List::MoreUtils' => '0.22';
 requires 'Module::Pluggable' => '3.8';
 requires 'Data::Visitor' => '0.15';
 
+build_requires 'DBIx::Class' => '0.08010';
 build_requires 'Test::More';
 build_requires 'File::Find';
 build_requires 'File::Temp';

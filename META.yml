@@ -3,6 +3,7 @@ abstract: 'An enhanced populate method'
 author:
   - 'John Napiorkowski <jjn1056@yahoo.com>'
 build_requires:
+  DBIx::Class: 0.08010
   File::Find: 0
   File::Temp: 0
   Test::More: 0
@@ -26,4 +27,4 @@ requires:
   Moose: 0.48
   MooseX::AttributeHelpers: 0.09
   perl: 5.8.6
-version: 0.02
+version: 0.03

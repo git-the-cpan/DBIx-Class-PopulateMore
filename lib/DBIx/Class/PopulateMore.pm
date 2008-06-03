@@ -11,11 +11,11 @@ DBIx::Class::PopulateMore - An enhanced populate method
 
 =head1 VERSION
 
-Version 0.02
+Version 0.03
 
 =cut
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 =head1 SYNOPSIS
 
@@ -115,6 +115,7 @@ It's trivial to write more; please feel free to post me your contributions.
 Please note the when inserting rows, we are actually calling "create_or_update"
 on each data item, so this will not be as fast as using $schema->bulk_insert.
 
+
 =head1 METHODS
 
 This module defines the following methods.
@@ -122,7 +123,21 @@ This module defines the following methods.
 =head2 populate_more ($ArrayRef)
 
 Given an arrayref formatted as in the L</SYNOPSIS> example, populate a rows in
-a database.  Confesses on errors.  See L</SYNOPSIS> for more
+a database.  Confesses on errors.  
+
+The $ArrayRef contains one or more elements in the following pattern;
+
+	{Source => {
+		fields => [qw/ column belongs_to has_many/],
+		data => {
+			key_1 => ['value', $row, \@rows ],
+	}}}
+
+'Source' is the name of a DBIC source (as in $schema->resultset($Source)->...)
+while fields is an arrayref of either columns or named relationships and data
+is a hashref of rows that you will insert into the Source.
+
+See L</SYNOPSIS> for more.
 
 =cut
 
